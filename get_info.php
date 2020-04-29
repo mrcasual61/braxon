@@ -1,11 +1,5 @@
 <?php
 
-	$servername = "braxon.db.10929588.188.hostedresource.net";
-	$username = "braxon";
-	$password = "Latches@61";
-	$dbname = "braxon";
-
-	// Create connection
 	$conn = mysqli_connect($servername, $username, $password, $dbname);
 
 	// Check connection
